@@ -17,32 +17,32 @@ We use a publicly available dataset of news headlines labeled as sarcastic or no
 ---
 
 ## Project Structure
+
+```text
 detecting_sarcasm/
 │
 ├── data/
-│ ├── raw/ # Original dataset (JSON)
-│ ├── processed/ # Cleaned datasets and model outputs
-│ │ ├── sarcasm_cleaned.csv
-│ │ ├── sarcasm_raw.csv
-│ │ ├── bert_eval_results.csv
-│ │ ├── bert_predictions.csv
-│ │
-│ └── splits/ # Train/test splits
-│ ├── X_train.csv
-│ ├── X_test.csv
-│ ├── y_train.csv
-│ ├── y_test.csv
+│   ├── raw/                 # Original dataset
+│   ├── processed/           # Cleaned data and model outputs
+│   │   ├── sarcasm_cleaned.csv
+│   │   ├── sarcasm_raw.csv
+│   │   ├── bert_eval_results.csv
+│   │   ├── bert_predictions.csv
+│   │
+│   └── splits/              # Train/test splits
+│       ├── X_train.csv
+│       ├── X_test.csv
+│       ├── y_train.csv
+│       ├── y_test.csv
 │
 ├── notebooks/
-│ ├── eda.ipynb # Data cleaning and exploratory analysis
-│ ├── bert_model.ipynb # DistilBERT training and evaluation
-│ ├── bert_model.ipynb - Colab.pdf
-│ ├── model_comparison.ipynb # Results, visualization, and error analysis
+│   ├── eda.ipynb
+│   ├── bert_model.ipynb
+│   ├── bert_model.ipynb - Colab.pdf
+│   ├── model_comparison.ipynb
 │
 └── README.md
-
-
----
+```
 
 ## Models Used
 
@@ -66,9 +66,8 @@ detecting_sarcasm/
 The easiest way to view the project is through the notebooks:
 
 1. All notebooks are able to run on their own except bert_model.ipynb which must be ran in Google Colab with GPU support.
+2. If you want to run locally, install dependencies
 
-
-(Locally)
 #### Requirements
 Install dependencies:
 
