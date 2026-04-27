@@ -1,7 +1,7 @@
 # Sarcasm Detection in News Headlines
 
 ## Overview
-This project investigates sarcasm detection in news headlines using both classical machine learning models and transformer-based models. We compare how different text representations — including bag-of-words, TF-IDF, engineered features, and contextual embeddings — impact model performance.
+This project investigates sarcasm detection in news headlines using both classical machine learning models and transformer-based models. We compare how different text representations -- including bag-of-words, TF-IDF, engineered features, and contextual embeddings -- impact model performance.
 
 The goal is to evaluate which approaches are most effective at capturing the subtle semantic and contextual cues required for sarcasm detection.
 
